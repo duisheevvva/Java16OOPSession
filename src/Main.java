@@ -20,6 +20,7 @@ public class Main {
         Person person12 = new Person("Rahmankul","Zhakaev",LocalDate.of(2003,4,14));
         Person person13 = new Person("Azmar","Kurmanbekov",LocalDate.of(2009,2,21));
         Person person14 = new Person("Jyrgalbek","Amangulov",LocalDate.of(2009,2,15));
+        Person person15 = new Person("Jyrgalbek","Amangulov",LocalDate.of(2009,2,15));
 
         Person [] peopleJava ={person1,person2,person3,person4,person5,person6};
 
@@ -37,8 +38,9 @@ public class Main {
             }
         }
 
-//        Company company = new Company("Peaksoft","KG",LocalDate.of(2020,11,16),"Esen Niazov",groups);
-//        System.out.println(company);
+        Company company = new Company("Peaksoft","KG",LocalDate.of(2020,11,16),"Esen Niazov",groups);
+        System.out.println(company);
+
 
 
 
